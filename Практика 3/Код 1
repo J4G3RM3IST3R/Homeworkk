@@ -1,0 +1,19 @@
+i=42
+l=3.14159
+o="Hello Python!"
+v=True
+e=(1,2,3)
+d=[4,5,6]
+u={"name": "Alice", "age": 30}
+c={7, 8, 9}
+k=None
+
+print('type a is-',type(i))
+print('type a is-',type(l))
+print('type a is-',type(o))
+print('type a is-',type(v))
+print('type a is-',type(e))
+print('type a is-',type(d))
+print('type a is-',type(u))
+print('type a is-',type(c))
+print('type a is-',type(k))
