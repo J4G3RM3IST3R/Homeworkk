@@ -1,0 +1,17 @@
+my_list=[1,2,3]
+print('Оригинал:',my_list)
+my_list[0]=100
+print('Изменено:',my_list)
+#Первая переменная изменилась без проблем
+
+my_tuple=(1, 2, 3)
+print('Оригинал:',my_tuple)
+my_tuple[0]=100
+print('Изменено:',my_tuple)
+#Ошибка,значение не может измениться
+
+my_string = "duck"
+print('Оригинал:',my_string)
+(`my_string[0] = 'b'`)
+print('Изменено:',my_string)
+#Ошибка,значение не может измениться
