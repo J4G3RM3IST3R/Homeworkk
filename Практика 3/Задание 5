@@ -1,6 +1,0 @@
-shopping_list=["кола","лимон","мята","хлопья"]
-shopping_list.append=("молоко")
-print(shopping_list)
-
-unique_items=["кола","лимон","мята","хлопья"]
-print(unique_items)
