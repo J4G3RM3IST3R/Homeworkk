@@ -1,0 +1,15 @@
+import random
+num = random.randint(1, 10)
+
+for i in range (3):
+    num_my = int(input("Введите число: "))
+    if num_my == num :
+        print("Угадали!")
+        break
+
+    elif num < num_my:
+        print("Вы не угадали число. Попробуйте двигаться в меньшую сторону")
+    else:
+        print("Вы не угадали число. Попробуйте двигаться в большую сторону")
+
+print(f"Загаданное число: {num}")
