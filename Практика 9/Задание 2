@@ -1,0 +1,9 @@
+name = input("Введите имя: ")
+total = 0
+while name != "Левон":
+    if name == "Левон":
+        print(f"Число человек в очереди: {total} ")
+        break 
+    total += 1
+    name = input("Введите имя: ")
+print(f"Число человек в очереди: {total} ") 
