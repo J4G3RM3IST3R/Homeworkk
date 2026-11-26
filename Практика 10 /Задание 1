@@ -1,0 +1,11 @@
+PIN_LOCK = 4590
+print("ЭЛЕКТРОННЫЙ ЗАМОК")
+while True:
+    pin = int(input("Введите пин-код: "))
+
+    if pin == PIN_LOCK:
+        break
+    else:
+        print("Ошибка! Попробуйте еще раз") 
+
+print("Доступ разрешен")
